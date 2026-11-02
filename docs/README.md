@@ -200,6 +200,9 @@ LICENSE                  Repository license
 
 ## Documentation index
 
+This application branch provides [Pocket Dice](dice-app.md): controls, architecture,
+build instructions and device acceptance checks.
+
 Engineering and contribution guides define the rules; examples and archives
 provide reference material. Choose the entry that matches your task.
 

@@ -10,6 +10,27 @@
 
 可复用的字库文件与生成的字库源码放在 `fonts/`。
 
+口袋骰子使用 [Noto CJK Sans2.004](https://github.com/notofonts/noto-cjk/tree/Sans2.004)
+的 [`NotoSansSC-Regular.otf`](fonts/NotoSansSC-Regular.otf)，依据
+[SIL OFL 1.1](fonts/OFL.txt) 分发。
+生成的 [`dice_font_16.c`](fonts/dice_font_16.c) 是 16 像素、4 bpp、
+不压缩、20 像素行高的子集，由 `main/CMakeLists.txt` 编译。
+源 OTF 只作构建输入，不嵌入固件。
+[`dice_font_16.json`](fonts/dice_font_16.json) 记录源文件及输出哈希、
+全部 160 个字符（可打印 ASCII 和应用文字）与逐字形像素哈希。
+使用 Python、Pillow 11.3.0 和 fonttools 4.59.0 重建：
+
+```sh
+python -m pip install Pillow==11.3.0 fonttools==4.59.0
+python tools/generate_dice_font.py
+python tools/generate_dice_font.py --check
+```
+
+生成器遵循仓库记录的 PLAIN 4 bpp 打包和连续/稀疏 TINY cmap 格式。
+无依赖检查重新读取生成字节、验证像素哈希，并与应用源码文字比较覆盖范围。
+UI 在启动和主机渲染中额外检查实际 LVGL 字形查找。
+真实中文显示仍须单独进行设备测试。
+
 - 命名要能反映字族、字重、字级与格式。
 - 记录来源、许可、字符范围、转换命令与目标放置路径。
 - 添加字库前评估 Flash 与内部 RAM 影响；ESP32-C3 无 PSRAM。

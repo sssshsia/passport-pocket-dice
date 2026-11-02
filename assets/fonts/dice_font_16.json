@@ -1,0 +1,1130 @@
+{
+  "source_sha256": "faa6c9df652116dde789d351359f3d7e5d2285a2b2a1f04a2d7244df706d5ea9",
+  "size": 16,
+  "bpp": 4,
+  "line_height": 20,
+  "converter": "generate_dice_font.py / Pillow 11.3.0 / fonttools 4.59.0",
+  "font_sha256": "8cc766b9dfafe79dddf3543e2db3ede6ee09d64a87ec46d7cbc9b018cc6a61f9",
+  "glyphs": [
+    {
+      "point": 32,
+      "start": 0,
+      "width": 4,
+      "height": 0,
+      "pixels_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "point": 33,
+      "start": 0,
+      "width": 5,
+      "height": 13,
+      "pixels_sha256": "80730e3aa6db71491d78e890b6a897d34615acacd1a1509ea0a106b2bbb858ae"
+    },
+    {
+      "point": 34,
+      "start": 33,
+      "width": 8,
+      "height": 13,
+      "pixels_sha256": "0e159c64cef7eed2839aedae2fe680883a7ac109edee6e84a72b55f0f978e718"
+    },
+    {
+      "point": 35,
+      "start": 85,
+      "width": 9,
+      "height": 12,
+      "pixels_sha256": "f4c93358ddd94424585e4c8fdfddbf59cf4b3b52414d57911cf6931e4b781676"
+    },
+    {
+      "point": 36,
+      "start": 139,
+      "width": 9,
+      "height": 16,
+      "pixels_sha256": "2f7b45475b203ed0d1fcf51b982253f6c1deff895002a1ee052c6793bb41d7d6"
+    },
+    {
+      "point": 37,
+      "start": 211,
+      "width": 15,
+      "height": 12,
+      "pixels_sha256": "c5074d7deef3ab70f4759ac3a29b4a52a7443c5a00eb472450fce5f754e283c7"
+    },
+    {
+      "point": 38,
+      "start": 301,
+      "width": 11,
+      "height": 12,
+      "pixels_sha256": "342c8fd69a3fb1804a6989b5ea47e8a72e49e05c40b9d001ea3b632af3368f6b"
+    },
+    {
+      "point": 39,
+      "start": 367,
+      "width": 4,
+      "height": 13,
+      "pixels_sha256": "950dc1b35e571e248f3111640cd3a875a119f1671e84a06ea570845e53262fd9"
+    },
+    {
+      "point": 40,
+      "start": 393,
+      "width": 5,
+      "height": 17,
+      "pixels_sha256": "fa0aac0f750d827223083e471708d51a33d358791d3ad596f6e865ebd80af161"
+    },
+    {
+      "point": 41,
+      "start": 436,
+      "width": 5,
+      "height": 17,
+      "pixels_sha256": "8afe88bac832f041c2ee6bf115e5dc04b0d03980b2df26ef3707a598f793c31a"
+    },
+    {
+      "point": 42,
+      "start": 479,
+      "width": 7,
+      "height": 13,
+      "pixels_sha256": "51ddf6489a992f4d0d1654bf9016fec63ce95e3e4aca61a8b92d01a9098f6cd6"
+    },
+    {
+      "point": 43,
+      "start": 525,
+      "width": 9,
+      "height": 10,
+      "pixels_sha256": "31fe5cdad73eee7923d9752224e90b180c923b93ec934f2264cebae2bb3deefe"
+    },
+    {
+      "point": 44,
+      "start": 570,
+      "width": 4,
+      "height": 7,
+      "pixels_sha256": "27a9c7bc5a9716411095bf0b843722ddfa92c2d0940b7d22039299c1cdb1766b"
+    },
+    {
+      "point": 45,
+      "start": 584,
+      "width": 6,
+      "height": 5,
+      "pixels_sha256": "ef936dcb4ec8cc766a0c535e0c44c045a4383cd95136eb005467ede5b09f7e16"
+    },
+    {
+      "point": 46,
+      "start": 599,
+      "width": 4,
+      "height": 3,
+      "pixels_sha256": "708439579a18b1a1127383d87bb432548d35ad6f0358d51a501c44f907d3d66c"
+    },
+    {
+      "point": 47,
+      "start": 605,
+      "width": 7,
+      "height": 16,
+      "pixels_sha256": "85b6c542825ee51e1280abd8182cdc985652e722657adc6ff306ee3e50517e8c"
+    },
+    {
+      "point": 48,
+      "start": 661,
+      "width": 9,
+      "height": 12,
+      "pixels_sha256": "2df4559b27999d7275e362bbfea6669fac70367c7e11b24c785795029d82b16b"
+    },
+    {
+      "point": 49,
+      "start": 715,
+      "width": 9,
+      "height": 12,
+      "pixels_sha256": "a91a9643c98db41530a24e45917106cfaf22ac9a19be71c06e82e962c624371e"
+    },
+    {
+      "point": 50,
+      "start": 769,
+      "width": 9,
+      "height": 12,
+      "pixels_sha256": "4e02366cd752de9052f564c6a563fbf3b4affe70600233c5f218cfb3e483c47d"
+    },
+    {
+      "point": 51,
+      "start": 823,
+      "width": 9,
+      "height": 12,
+      "pixels_sha256": "fad2c65cb39e75785fc9cd9d01f2fec9025c101f4bb00e4f8048a280a3b1d787"
+    },
+    {
+      "point": 52,
+      "start": 877,
+      "width": 9,
+      "height": 12,
+      "pixels_sha256": "77371742ed0f59e56c3e62d20996b90a6ecdb6e5729d8e330ab9d92fca540c61"
+    },
+    {
+      "point": 53,
+      "start": 931,
+      "width": 9,
+      "height": 12,
+      "pixels_sha256": "df9a6d449c5b10930fc54c7c290b8116d9229368c0c622fea382067466a180b9"
+    },
+    {
+      "point": 54,
+      "start": 985,
+      "width": 9,
+      "height": 12,
+      "pixels_sha256": "89dedf41e0eb6514fd1a18326b1902140187c513c656cd96727fe236981bf544"
+    },
+    {
+      "point": 55,
+      "start": 1039,
+      "width": 9,
+      "height": 12,
+      "pixels_sha256": "85deca395abb2eaa331c3c6aecf4b8f8d04e3750fd0c6d650b425b7a0256d1ad"
+    },
+    {
+      "point": 56,
+      "start": 1093,
+      "width": 9,
+      "height": 12,
+      "pixels_sha256": "20829f1242a365324a4d49a55fd227aae1c1a6133e87a785aa40724fd6f21ac5"
+    },
+    {
+      "point": 57,
+      "start": 1147,
+      "width": 9,
+      "height": 12,
+      "pixels_sha256": "41f59e0ca118a7ca1eac437aa77b75a64f217edf353af4ace44efb6e2bc984c4"
+    },
+    {
+      "point": 58,
+      "start": 1201,
+      "width": 4,
+      "height": 9,
+      "pixels_sha256": "b9b136b271bcad85eac25bc72f9cecad7989a56b28596818e9db820b17458f68"
+    },
+    {
+      "point": 59,
+      "start": 1219,
+      "width": 4,
+      "height": 13,
+      "pixels_sha256": "fffb4f5d0e76816bff022ae9b18cc549e119bc97c97eb7d2fa10af3a5af99660"
+    },
+    {
+      "point": 60,
+      "start": 1245,
+      "width": 9,
+      "height": 10,
+      "pixels_sha256": "a1a6a64cc1810f579ffe5e2a22a41277bafad343af30945a28ccac91df36708e"
+    },
+    {
+      "point": 61,
+      "start": 1290,
+      "width": 9,
+      "height": 9,
+      "pixels_sha256": "d235ec8fea47c03336c57d36c227a068332eca5ab318e1528344a595d5db0884"
+    },
+    {
+      "point": 62,
+      "start": 1331,
+      "width": 9,
+      "height": 10,
+      "pixels_sha256": "0b8d79fcf4193afdd1dea409ee83e55edc8d702f7f50bcf5be302c114540cc4a"
+    },
+    {
+      "point": 63,
+      "start": 1376,
+      "width": 8,
+      "height": 13,
+      "pixels_sha256": "ec74bcf2d934aef965a3c0858d1d6d062d5da5f3ba16cdae2db425f28c72b214"
+    },
+    {
+      "point": 64,
+      "start": 1428,
+      "width": 15,
+      "height": 15,
+      "pixels_sha256": "c6a74bf6343b1d09142bde58113b0dbd66db483a9281c52259d283915466d2ab"
+    },
+    {
+      "point": 65,
+      "start": 1541,
+      "width": 10,
+      "height": 12,
+      "pixels_sha256": "e26f7bebdf1270cd0b90ef4069202de40392129665cac68d7e3c1d31d5786c52"
+    },
+    {
+      "point": 66,
+      "start": 1601,
+      "width": 11,
+      "height": 12,
+      "pixels_sha256": "be0d967a05f48c5a0e4e574031b9e2b1885f7e21fb101ed4ca67b605d5ad8df3"
+    },
+    {
+      "point": 67,
+      "start": 1667,
+      "width": 10,
+      "height": 12,
+      "pixels_sha256": "d824eeb41fbc37c2cbab36ea5de288337fe4a2775499548ef14e34f9c258a194"
+    },
+    {
+      "point": 68,
+      "start": 1727,
+      "width": 11,
+      "height": 12,
+      "pixels_sha256": "4838d4eb4496f346740db5c27355090b5e61f7cc130918174ba3a7549706748b"
+    },
+    {
+      "point": 69,
+      "start": 1793,
+      "width": 9,
+      "height": 12,
+      "pixels_sha256": "477d99deb2bab098baf3797aa09da82df868774282f3246b482dfd4693a53318"
+    },
+    {
+      "point": 70,
+      "start": 1847,
+      "width": 9,
+      "height": 12,
+      "pixels_sha256": "2ee033adbaae01e87732a61f94146d69eff7250a00fb8bb9eb6834600f1d5ed7"
+    },
+    {
+      "point": 71,
+      "start": 1901,
+      "width": 11,
+      "height": 12,
+      "pixels_sha256": "b2a1fee18f91c03a85ce2752db4e8b0616bd6801efe5cdf6cf75361c98026e66"
+    },
+    {
+      "point": 72,
+      "start": 1967,
+      "width": 12,
+      "height": 12,
+      "pixels_sha256": "34857bc17abc98b87123debd84131001dc62e44dc55dcc1cfbde5c4cb123cd2e"
+    },
+    {
+      "point": 73,
+      "start": 2039,
+      "width": 5,
+      "height": 12,
+      "pixels_sha256": "8d6acdafa27175ab57614442dee3668562cbcdb6217c87777340b29266b74d54"
+    },
+    {
+      "point": 74,
+      "start": 2069,
+      "width": 9,
+      "height": 12,
+      "pixels_sha256": "3f2b0624e4edc199b4e39ab4cfcd35c0b0112a9819f42e3dd4e4fad6839771c8"
+    },
+    {
+      "point": 75,
+      "start": 2123,
+      "width": 11,
+      "height": 12,
+      "pixels_sha256": "37c6bfc31d01a54000382e593047f24904e54b27194129d085befec372136ac6"
+    },
+    {
+      "point": 76,
+      "start": 2189,
+      "width": 9,
+      "height": 12,
+      "pixels_sha256": "afc7da3ce63d214ba0d1775d7ff141f4664da31b4ef09a02e452ca2885bc8aeb"
+    },
+    {
+      "point": 77,
+      "start": 2243,
+      "width": 13,
+      "height": 12,
+      "pixels_sha256": "096923f0deaeb2170acf7a9b5d0d93503bec1827c1169346bf08f6778b9eb5d0"
+    },
+    {
+      "point": 78,
+      "start": 2321,
+      "width": 12,
+      "height": 12,
+      "pixels_sha256": "5dfa14ae786e3b4b5b5783cde38fa6bdbb0d5e99dd3e73c2cdb68320b660868a"
+    },
+    {
+      "point": 79,
+      "start": 2393,
+      "width": 12,
+      "height": 12,
+      "pixels_sha256": "c73ccb23171e4f5028ab4df326e118eb937e2f92b38ea7eef69a2c72fe3f088e"
+    },
+    {
+      "point": 80,
+      "start": 2465,
+      "width": 10,
+      "height": 12,
+      "pixels_sha256": "aa034b581f8b28e3d55e609455d420b22b735672c2be189439364fed4bf166d4"
+    },
+    {
+      "point": 81,
+      "start": 2525,
+      "width": 12,
+      "height": 15,
+      "pixels_sha256": "505d745c0fc2c84d50332bda8bf09f4137739d90c1f3ab9236a7c8aa9efade0b"
+    },
+    {
+      "point": 82,
+      "start": 2615,
+      "width": 10,
+      "height": 12,
+      "pixels_sha256": "8255f913206b5083acf32a5bea09233d34d53f4219b8dbb00529eb7907a9306c"
+    },
+    {
+      "point": 83,
+      "start": 2675,
+      "width": 10,
+      "height": 12,
+      "pixels_sha256": "fec1c9d7be67dcf6d0f6206df4d15a09ebf83c2ab1ebc81d20e43cb5c72381d9"
+    },
+    {
+      "point": 84,
+      "start": 2735,
+      "width": 10,
+      "height": 12,
+      "pixels_sha256": "832a5ff3dc81f31dd4d05ed8123ccf1366830e8b19f123d5257b9c8766272ff3"
+    },
+    {
+      "point": 85,
+      "start": 2795,
+      "width": 12,
+      "height": 12,
+      "pixels_sha256": "f1e1570a0af21e6e758815df9c3a91d2dfc99b8aa01897764f70cf70c01fbbc5"
+    },
+    {
+      "point": 86,
+      "start": 2867,
+      "width": 10,
+      "height": 12,
+      "pixels_sha256": "f776e67dab563941ead6cc9204423fd06af9341978aeaf2213ddeb438323d078"
+    },
+    {
+      "point": 87,
+      "start": 2927,
+      "width": 14,
+      "height": 12,
+      "pixels_sha256": "e31d354f9173e0268915360e71f30d24252ecda77e7e656d32126b89582755e1"
+    },
+    {
+      "point": 88,
+      "start": 3011,
+      "width": 9,
+      "height": 12,
+      "pixels_sha256": "c9e72c8234f4fb6fde7446bf13d07a67b9156b3f84f3aa86e9bbf8e6037b0bdb"
+    },
+    {
+      "point": 89,
+      "start": 3065,
+      "width": 10,
+      "height": 12,
+      "pixels_sha256": "5584ca7b3bed457b0119f1251be64ad9d7f568cfc15d9ebd1466bbee1efae123"
+    },
+    {
+      "point": 90,
+      "start": 3125,
+      "width": 10,
+      "height": 12,
+      "pixels_sha256": "248312a8aa478c9ec7b31bfe3e6c48176d305793dff8b1fc519954a2d28f186a"
+    },
+    {
+      "point": 91,
+      "start": 3185,
+      "width": 5,
+      "height": 16,
+      "pixels_sha256": "63281b39aaed0821378f09960eb4fd4cc53b6da9e3a1f036e386f331a37ed9d1"
+    },
+    {
+      "point": 92,
+      "start": 3225,
+      "width": 7,
+      "height": 16,
+      "pixels_sha256": "bb25eee4f241e0d78edc94ab425329663358c362990177b8fdc45e53f17e1658"
+    },
+    {
+      "point": 93,
+      "start": 3281,
+      "width": 5,
+      "height": 16,
+      "pixels_sha256": "91ccd8c5ce90f2e63aeb762b1182647dc411d7bd091b68a9288d417770c88fbd"
+    },
+    {
+      "point": 94,
+      "start": 3321,
+      "width": 9,
+      "height": 12,
+      "pixels_sha256": "ddf31c865428dff522af2cd0ba15d852a77c3bac40e7b1dadede4a6c6406f438"
+    },
+    {
+      "point": 95,
+      "start": 3375,
+      "width": 9,
+      "height": 2,
+      "pixels_sha256": "cc9c247318921610a8760e2ace4461e79af26b3fb941c56880fa87e63cd27b88"
+    },
+    {
+      "point": 96,
+      "start": 3384,
+      "width": 10,
+      "height": 14,
+      "pixels_sha256": "9917463a68cdca97e17887c44da2edea1343b9e6d7512d065a07204333e9e0a3"
+    },
+    {
+      "point": 97,
+      "start": 3454,
+      "width": 9,
+      "height": 9,
+      "pixels_sha256": "30c84c85efbde76d85f4b6c6449cb60cdaf4a97e77b6d3420b12b9e615de007e"
+    },
+    {
+      "point": 98,
+      "start": 3495,
+      "width": 10,
+      "height": 13,
+      "pixels_sha256": "bf20ee0a12d507d695beb2ed9633d836f98341ea25864410f7bac9525cf28b79"
+    },
+    {
+      "point": 99,
+      "start": 3560,
+      "width": 8,
+      "height": 9,
+      "pixels_sha256": "dc482524815be3ee60b998430f9919c96aa7f40a85bbd5e4e25d7c4ceb8ef47f"
+    },
+    {
+      "point": 100,
+      "start": 3596,
+      "width": 10,
+      "height": 13,
+      "pixels_sha256": "df248b2c749bba0b9204b189261cca704aaf8d1fec7a8da3295bc54b2c415c28"
+    },
+    {
+      "point": 101,
+      "start": 3661,
+      "width": 9,
+      "height": 9,
+      "pixels_sha256": "878d0d948529344f042b79742c8cc0b45045131083f77689515d4d9730210f45"
+    },
+    {
+      "point": 102,
+      "start": 3702,
+      "width": 6,
+      "height": 14,
+      "pixels_sha256": "b53e9c6627e902327707ea34fc0f017ef45d8812597739eca05da268e5b32f1e"
+    },
+    {
+      "point": 103,
+      "start": 3744,
+      "width": 9,
+      "height": 13,
+      "pixels_sha256": "4d8d2926e6dd08d0c7490b970ba2665ba98db08c7e5bbf43c255ca8a4e29b645"
+    },
+    {
+      "point": 104,
+      "start": 3803,
+      "width": 10,
+      "height": 13,
+      "pixels_sha256": "4ca32625fd4169a04216aa12fbacd1d3f300ec885c59a19f04887eb36180b7d9"
+    },
+    {
+      "point": 105,
+      "start": 3868,
+      "width": 4,
+      "height": 13,
+      "pixels_sha256": "664c50b187046a6f590eb9b49b3d2db20a88b8698c07999be3b9ecb240868822"
+    },
+    {
+      "point": 106,
+      "start": 3894,
+      "width": 5,
+      "height": 17,
+      "pixels_sha256": "05cc9f6b2cf0adf8e049fa8569abee36e862c7b6f53eda3e869f1f161442cf9c"
+    },
+    {
+      "point": 107,
+      "start": 3937,
+      "width": 9,
+      "height": 14,
+      "pixels_sha256": "79528fe7a98f201621672d6324d4a8ea9f35b5ffeae2edd2f6bce74b7ad54611"
+    },
+    {
+      "point": 108,
+      "start": 4000,
+      "width": 5,
+      "height": 13,
+      "pixels_sha256": "e427e845e5c6eedea53156c595d8fe72c99eb4ef9bff5dc896714558bd0d1578"
+    },
+    {
+      "point": 109,
+      "start": 4033,
+      "width": 15,
+      "height": 9,
+      "pixels_sha256": "f7d3a88072573f79e47c654052a8ed0ea8824ef338187ce507d460b306b3df37"
+    },
+    {
+      "point": 110,
+      "start": 4101,
+      "width": 10,
+      "height": 9,
+      "pixels_sha256": "e8b07c36ffc41fcd3cb1746e8d2353a7bdf29f1bfe724661c77e9bac07b52752"
+    },
+    {
+      "point": 111,
+      "start": 4146,
+      "width": 10,
+      "height": 9,
+      "pixels_sha256": "49642121b7341765d42ad4c2018cd986bcd1a1070aa75d92f8e6af64b54820d2"
+    },
+    {
+      "point": 112,
+      "start": 4191,
+      "width": 10,
+      "height": 13,
+      "pixels_sha256": "aee3def4d24ad4be0678dd0f9cd058e19a8adae347711b39c8a62bbfa5c0b39b"
+    },
+    {
+      "point": 113,
+      "start": 4256,
+      "width": 10,
+      "height": 13,
+      "pixels_sha256": "728dfe4ecee133390d86bbb0ed7dc9364189c06f7957a1edd385581919dea91b"
+    },
+    {
+      "point": 114,
+      "start": 4321,
+      "width": 7,
+      "height": 9,
+      "pixels_sha256": "506beefc0dfba2e8fe0fccb8fcf08941d1113fe4d1f5de714a14fac73addb24b"
+    },
+    {
+      "point": 115,
+      "start": 4353,
+      "width": 7,
+      "height": 9,
+      "pixels_sha256": "cd275ac56425fe264a52c441c8b6df073082471ef70dc7205c900c00c8dd9c55"
+    },
+    {
+      "point": 116,
+      "start": 4385,
+      "width": 6,
+      "height": 12,
+      "pixels_sha256": "30f4d404cef3221c59f15a4eecac42454f45c9581392fc08b859f95a63501d48"
+    },
+    {
+      "point": 117,
+      "start": 4421,
+      "width": 10,
+      "height": 9,
+      "pixels_sha256": "fa7f43e2b808579f096c82bf5531a244d0c7d1dd5e7057adaa18ff816a085382"
+    },
+    {
+      "point": 118,
+      "start": 4466,
+      "width": 9,
+      "height": 9,
+      "pixels_sha256": "157255fdb48e20adb7b2865a0b398a453e8034d4db5903e03ac29d07d957dab5"
+    },
+    {
+      "point": 119,
+      "start": 4507,
+      "width": 13,
+      "height": 9,
+      "pixels_sha256": "eed6d2cc494ef101661f26206a30dc8603d94d7e6bb754c80e9eed03038b6c02"
+    },
+    {
+      "point": 120,
+      "start": 4566,
+      "width": 8,
+      "height": 9,
+      "pixels_sha256": "9edda2d8a22885d267a6d62401677f12469df16bbba329d1533be2f46742480d"
+    },
+    {
+      "point": 121,
+      "start": 4602,
+      "width": 9,
+      "height": 13,
+      "pixels_sha256": "641755b2c8452902d377e9fc395e49b1e67501f57db394b3e114d6032d754241"
+    },
+    {
+      "point": 122,
+      "start": 4661,
+      "width": 8,
+      "height": 9,
+      "pixels_sha256": "80dd05ddb9d904652a6087baea7e41c14fa5974ce3a4a8ad79e87f526267ca35"
+    },
+    {
+      "point": 123,
+      "start": 4697,
+      "width": 5,
+      "height": 16,
+      "pixels_sha256": "ec0f1ea84f6d383caa6f1c5fa172cd668377a246f785cc3e5731b9ec766912c0"
+    },
+    {
+      "point": 124,
+      "start": 4737,
+      "width": 4,
+      "height": 18,
+      "pixels_sha256": "2f157809f9c92aad1df68da2cb78e348b50f289538f7e780e144bafd042db311"
+    },
+    {
+      "point": 125,
+      "start": 4773,
+      "width": 5,
+      "height": 16,
+      "pixels_sha256": "d2803dcb9ea27aa9649bf8ea42393b29efa0fa9f7a8a711dd2d8a2bff4e10a7c"
+    },
+    {
+      "point": 126,
+      "start": 4813,
+      "width": 9,
+      "height": 8,
+      "pixels_sha256": "874accbaf2461a1286aaa62306b6f089871d6c0ac0571c05666b5dda6818a484"
+    },
+    {
+      "point": 19968,
+      "start": 4849,
+      "width": 16,
+      "height": 7,
+      "pixels_sha256": "f62ec212d58f1965ac55628f1bfdf815baa6c597ded0ab2887e9472b161a0cdd"
+    },
+    {
+      "point": 19978,
+      "start": 4905,
+      "width": 16,
+      "height": 15,
+      "pixels_sha256": "b0ec306038f8c29ccb472a9fda3c8c9a3798c13f175b67837d6c735056f90bbb"
+    },
+    {
+      "point": 19979,
+      "start": 5025,
+      "width": 16,
+      "height": 15,
+      "pixels_sha256": "8d556e36f7534891b1f20051699932dc9624792c59f99c30ab5a29ce7eef6393"
+    },
+    {
+      "point": 20013,
+      "start": 5145,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "361d90caa36bd72c14be226080227711f75c1ebb41fc6fa6bc9a4c8d4c1160a7"
+    },
+    {
+      "point": 20102,
+      "start": 5273,
+      "width": 16,
+      "height": 15,
+      "pixels_sha256": "788a4786849e2f2ea7004b6c9cc68afdd8cbeae52f1d4781808d145d01bf4025"
+    },
+    {
+      "point": 20934,
+      "start": 5393,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "ff6770a56b7bd90741acc137d81bd5e442fccb27040bf23a2dde040ebfd644f2"
+    },
+    {
+      "point": 20943,
+      "start": 5521,
+      "width": 16,
+      "height": 17,
+      "pixels_sha256": "fe8f56515b5df061f291ba9f6d124e58283a4870519ea612220ca3abfd4f37a6"
+    },
+    {
+      "point": 21152,
+      "start": 5657,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "0b6708b0b0ea5193be68497a35654aaa3d8dae558ac3de02b793952018b4cd8b"
+    },
+    {
+      "point": 21160,
+      "start": 5785,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "93285f902b4c0443f970309ffe6335195f21a5ee465191d53396df4332ffadd9"
+    },
+    {
+      "point": 21453,
+      "start": 5913,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "a3ddc0c4a39d22c04d7a13f336bfeb000509c973e989181983829b9843fdf9c9"
+    },
+    {
+      "point": 21475,
+      "start": 6041,
+      "width": 16,
+      "height": 14,
+      "pixels_sha256": "e8fdda2da5dc3e83952afe1f74f566f2e0bea9ca6e3ac7c2fc28435a441a57ca"
+    },
+    {
+      "point": 21527,
+      "start": 6153,
+      "width": 16,
+      "height": 17,
+      "pixels_sha256": "a8953468bae694ba94ea8d62f3b38fceb103bf3b77d57c3125b0a5bcf4ba536f"
+    },
+    {
+      "point": 21551,
+      "start": 6289,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "938444ec3e040251600525fd3eb1cde7cc63b59e74c19e27ca46b98a508ee805"
+    },
+    {
+      "point": 22238,
+      "start": 6417,
+      "width": 16,
+      "height": 15,
+      "pixels_sha256": "7407a883c47cf2650628250b724462b0012368cf3f04dcf162b248f4a79d8e65"
+    },
+    {
+      "point": 22266,
+      "start": 6537,
+      "width": 16,
+      "height": 15,
+      "pixels_sha256": "51403118eb566b0e893ae464c1a3d292c8c887bfe033f94776f4df434281587e"
+    },
+    {
+      "point": 22791,
+      "start": 6657,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "8af467198adc7767c0339c19ef6c15afd1a515809801bf86487c81eaf30671a9"
+    },
+    {
+      "point": 22833,
+      "start": 6785,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "94e2d17aa96799de002d3687f68c2b856cc4718b9793860616f33a88fd54f8e7"
+    },
+    {
+      "point": 22909,
+      "start": 6913,
+      "width": 16,
+      "height": 17,
+      "pixels_sha256": "b25c4959b6c441f21baa57fdc8662325f8c8134200fcc9207e49bc63b059e61c"
+    },
+    {
+      "point": 23376,
+      "start": 7049,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "2d210429d78a38ab0c0e6b2a3ce91a56717a3d455ba78cf3f0d611b11d601d49"
+    },
+    {
+      "point": 23450,
+      "start": 7177,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "c889259b78d8fef9bcdebdc1057f6d025f3324c58aebe54037636b9a45161b67"
+    },
+    {
+      "point": 24065,
+      "start": 7305,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "84834e1de99487a7eb8f589341bb9525f56df6aa64b2914a2ef22018a5c9d123"
+    },
+    {
+      "point": 24405,
+      "start": 7433,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "becbc3c084d542f7d1f30f8912080c880b2e9c5b3a0af9122b784440b9b078bc"
+    },
+    {
+      "point": 24635,
+      "start": 7561,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "e410ae81a6130486441b624b5e1a1a1bdc777859ce21f1a9d976c72b91e0564b"
+    },
+    {
+      "point": 25237,
+      "start": 7689,
+      "width": 16,
+      "height": 17,
+      "pixels_sha256": "3e9db80d45c7dd80748f1d30c815ce6c84ee9b2f2ac250a84997a566afc3a4b0"
+    },
+    {
+      "point": 25321,
+      "start": 7825,
+      "width": 16,
+      "height": 17,
+      "pixels_sha256": "f60e1d9453440010bdd8be0be99401d5b6e0f938a8bda2c73743059c09df8fbc"
+    },
+    {
+      "point": 25353,
+      "start": 7961,
+      "width": 16,
+      "height": 17,
+      "pixels_sha256": "c1f4427ee0e0fbbd6eaed81bbda07b6edfdbfa9d1d8043059ac8f572b0ba2bb8"
+    },
+    {
+      "point": 25442,
+      "start": 8097,
+      "width": 16,
+      "height": 17,
+      "pixels_sha256": "113f07d737a9df5e746b0210d8e7edf8d4aad5c69736c42a460b7cee5e84aa31"
+    },
+    {
+      "point": 25527,
+      "start": 8233,
+      "width": 16,
+      "height": 17,
+      "pixels_sha256": "5173e8e9d50d6171bc64389d3cead9104d45121f234ebe005d5a8422998a0c4a"
+    },
+    {
+      "point": 25925,
+      "start": 8369,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "ddf6f61e822a15bc5ac59af6c96b9cfb411eba05ca2993b90c46a36a644b1614"
+    },
+    {
+      "point": 25968,
+      "start": 8497,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "1d2dd94badd03956494a8ec66541463549a960e6382323c0b16852674afd91cc"
+    },
+    {
+      "point": 26368,
+      "start": 8625,
+      "width": 16,
+      "height": 15,
+      "pixels_sha256": "f694f275c0baf402affaff68f6bd1c8a61c1e97ac0acd21d999944f4ea1c3e43"
+    },
+    {
+      "point": 26377,
+      "start": 8745,
+      "width": 16,
+      "height": 17,
+      "pixels_sha256": "f13e1e9ba3496c8cc74460c79cb05c43d3125f7182ca2d46ec38146789959efd"
+    },
+    {
+      "point": 26412,
+      "start": 8881,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "7c854fd0996e028ce5ada330db0d1d5c1c96d5a4da519b42684665a3a113707f"
+    },
+    {
+      "point": 26426,
+      "start": 9009,
+      "width": 16,
+      "height": 17,
+      "pixels_sha256": "dedc5c4ef3bf9dc8d692b6d1f3e913621183ba95a8854d4592c86596e38112fc"
+    },
+    {
+      "point": 26522,
+      "start": 9145,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "2423eb9faf67dbd698a7fc37475c8b53f1341d1620459da5b2440c63d2ad1050"
+    },
+    {
+      "point": 27425,
+      "start": 9273,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "b9ab7774b5fbcdc75cbe429aefef34ccbffa8b3253fe65a93f3168eb24a8bfe3"
+    },
+    {
+      "point": 27491,
+      "start": 9401,
+      "width": 16,
+      "height": 14,
+      "pixels_sha256": "a8efe3c86de96a40203c358bb7778fd4d5cf29926f3032a1fb68d7ca4c84fbd1"
+    },
+    {
+      "point": 27599,
+      "start": 9513,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "c263458dbac87adc22d7743312dc9c86875576b5dfa6c80ea7309b96b6eb323b"
+    },
+    {
+      "point": 27809,
+      "start": 9641,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "1feda96904841991616db5196f5ec348f28d17e27245f2fab83b34172301ca3d"
+    },
+    {
+      "point": 28378,
+      "start": 9769,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "e91a64c6560a17fc4940237e51f36ecee5d9a0fd14037ab5c8aaf1818d2f9dfc"
+    },
+    {
+      "point": 28857,
+      "start": 9897,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "317619a56668dca577f465e7ccf50877e513e39ba7ef9f12c213bb65f237e45c"
+    },
+    {
+      "point": 30828,
+      "start": 10025,
+      "width": 16,
+      "height": 15,
+      "pixels_sha256": "21ce47e1cb71ec606eb9023597b0c4f48d6f1068cda984131ed6239e41e490e2"
+    },
+    {
+      "point": 30830,
+      "start": 10145,
+      "width": 16,
+      "height": 17,
+      "pixels_sha256": "1e11b428a9fca423635e04feb2abd73159cd4c19f225c2c5b9076475a78980a9"
+    },
+    {
+      "point": 32763,
+      "start": 10281,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "c092596745991bc22f76f834de3b95aaa00365dca78bfd2453fb68c08989dd0c"
+    },
+    {
+      "point": 34955,
+      "start": 10409,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "3fbdb15a2bc33b30597521beab7742cb04fb9906f846308b6861a0de5845e10f"
+    },
+    {
+      "point": 35760,
+      "start": 10537,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "6d282db6a02e4114936d5a4c4fbe56e921579c10ae69209506c30f22f16f047a"
+    },
+    {
+      "point": 35797,
+      "start": 10665,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "c81dd2e10995a115cbc76c43ee1071610781b96f66f10207bed8806d0b27cc74"
+    },
+    {
+      "point": 35831,
+      "start": 10793,
+      "width": 16,
+      "height": 17,
+      "pixels_sha256": "83cdfdd764081d45eff68e038bac6dd23fdc15a1c7c51238251eb11c612b4b55"
+    },
+    {
+      "point": 36133,
+      "start": 10929,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "89514a1617e8b67f1467dea2b9c7da24727419ecb6cf559a462b1084dbc8fb36"
+    },
+    {
+      "point": 36215,
+      "start": 11057,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "9fafcde8427b59491fda9a6e7ca21bb54ddf992f1c41618adef182237d44ea9e"
+    },
+    {
+      "point": 36816,
+      "start": 11185,
+      "width": 16,
+      "height": 17,
+      "pixels_sha256": "623457d70efb9827e4011a5a586979aaaaea3629650788dba187e3d2042c568d"
+    },
+    {
+      "point": 36817,
+      "start": 11321,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "292a9622d75165605fa6507212dbf40b9c583ab237a7053647540ac1b6d245fb"
+    },
+    {
+      "point": 36820,
+      "start": 11449,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "7ca27723c168ef13023410a2365fdb4c58bdbed2e1ff747aa02005d7666e01fd"
+    },
+    {
+      "point": 36824,
+      "start": 11577,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "9069b7838ab6e11d2f29cc1832fee86cd270c597461fb923686280628cb479d8"
+    },
+    {
+      "point": 36873,
+      "start": 11705,
+      "width": 16,
+      "height": 17,
+      "pixels_sha256": "e0e03cfbc59826c93d2f7e5c21931eb7b372b7175a7faf839a6c9c63bb93685c"
+    },
+    {
+      "point": 37325,
+      "start": 11841,
+      "width": 16,
+      "height": 15,
+      "pixels_sha256": "47eabe1f87fb13e75b3ac5fa463d734f5dd5ad6d61f86e7b4fd44769a67c6ad6"
+    },
+    {
+      "point": 37327,
+      "start": 11961,
+      "width": 16,
+      "height": 14,
+      "pixels_sha256": "e24c1393788a9622eb55d0d56a7a876aa465da12d29b66063c99376bd83053a1"
+    },
+    {
+      "point": 38190,
+      "start": 12073,
+      "width": 16,
+      "height": 17,
+      "pixels_sha256": "1866f7caeebdafe3d3d7a3faaf15a85ca412777cd3c962aeefc18e9dc7b62260"
+    },
+    {
+      "point": 38271,
+      "start": 12209,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "5767aa452f479a65a1afa7bdec92ef879f0ca2f70eba6e5a5a5a08e05e0ac07a"
+    },
+    {
+      "point": 38405,
+      "start": 12337,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "8428c41f0d9299a6af0dea7c17a1f7aa523f53fe45707ef76a2105b694b098a1"
+    },
+    {
+      "point": 38543,
+      "start": 12465,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "9a5706a21f2b5c34453e2a9b6de35caf0b806bb61b0dde469d3d1fa50bc77c23"
+    },
+    {
+      "point": 38556,
+      "start": 12593,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "30344cdcea2c4b7ec0e64101fce9c6edae602b6dcbcb48485bd377e2a051b700"
+    },
+    {
+      "point": 38754,
+      "start": 12721,
+      "width": 16,
+      "height": 15,
+      "pixels_sha256": "773019c06ca84b40e62747b7426121955dc139fb89a12e1821b3747286099325"
+    },
+    {
+      "point": 39063,
+      "start": 12841,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "db903d0a93d321bd7659357d7a98c911c3b84ad934227dbe74fffa15febdbc33"
+    },
+    {
+      "point": 39600,
+      "start": 12969,
+      "width": 16,
+      "height": 17,
+      "pixels_sha256": "8bb6b859b05e795abdc90cde3b7774049e732b99324a5c451cb848a9cc2f8f58"
+    }
+  ]
+}
