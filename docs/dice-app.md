@@ -95,6 +95,11 @@ integrity, and creates PPM screen captures. It is a software renderer, not a
 photo or proof of the physical display. Windows can select Ninja and a native
 GCC compiler explicitly. The repository shell gate needs Git Bash, a `python3`
 command for the activated Python, a host C compiler and Windows actionlint.
+ESP-IDF rejects an MSYS environment on Windows. If the combined shell gate
+stops there, run the firmware stage in native ESP-IDF PowerShell: use a fresh
+build directory and an isolated SDKCONFIG from the tracked defaults, then
+merge, verify and archive with the same repository tools. Report that shell
+gate limitation separately from the native build and host-test results.
 
 The verified `build/passport-pocket-dice-full.bin` is the merged firmware for
 offset **0x0**. Its matching ELF/MAP and manifest are retained under

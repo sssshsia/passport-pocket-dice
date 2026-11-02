@@ -81,6 +81,10 @@ cd build/ui-test
 这是软件渲染结果，不是真机照片或物理显示验证。Windows 可显式选择 Ninja
 及本机 GCC。仓库 shell 门禁需要 Git Bash、指向已激活 Python 的 `python3`、
 主机 C 编译器及 Windows actionlint。
+Windows 的 ESP-IDF 会拒绝 MSYS 环境。如果完整 shell 门禁因此中止，
+固件阶段改用原生 ESP-IDF PowerShell：新建构建目录，从受版本控制的默认配置
+生成隔离的 SDKCONFIG，再用相同的仓库工具合并、验证及归档。
+应将 shell 门禁的环境限制与原生构建、主机测试结果分别报告。
 
 验证后的 `build/passport-pocket-dice-full.bin` 是从 **0x0** 刷写的合并固件。
 对应 ELF/MAP 和清单保存在 `build/firmware/<sha256>/`。
