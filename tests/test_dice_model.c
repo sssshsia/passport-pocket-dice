@@ -32,7 +32,7 @@ static void test_uniform(void) {
     assert(dice_uniform(6, sequence_random, &fixture, &result));
     assert(fixture.calls == 5 && result == 5);
     for (unsigned type = 0; type < DICE_TYPE_COUNT; ++type) {
-        unsigned counts[101] = {0};
+        unsigned counts[201] = {0};
         const unsigned sides = dice_sides[type];
         fixture.sample = 100 * sides;
         fixture.calls = 0;
@@ -123,11 +123,38 @@ static void test_failure_atomicity(void) {
     assert(memcmp(&saved, &model.result, sizeof(saved)) == 0);
 }
 
+static void test_d200_and_all_face_boundaries(void) {
+    dice_model_t model;
+    dice_model_init(&model);
+    assert(dice_sides[DICE_TYPE_COUNT - 1] == 200);
+    for (unsigned type = 0; type < DICE_TYPE_COUNT; ++type) {
+        model.type = (uint8_t)type;
+        model.count = type == 0 ? 1 : DICE_MAX_COUNT;
+        random_fixture_t fixture = {.sample = dice_sides[type] * 2 - 1};
+        assert(dice_model_action(&model, DICE_OK, 0, constant_random, &fixture));
+        assert(dice_model_tick(&model, DICE_ROLL_MS));
+        assert(model.result.total == dice_sides[type] * model.count);
+        if (dice_sides[type] == 200) assert(model.result.total == 1200);
+        for (unsigned index = 0; index < model.count; ++index) {
+            assert(model.result.values[index] == dice_sides[type]);
+        }
+        assert(model.history[0].total == model.result.total);
+        fixture.sample = dice_sides[type];
+        assert(dice_model_action(&model, DICE_OK, 1000, constant_random, &fixture));
+        assert(dice_model_tick(&model, 1000 + DICE_ROLL_MS));
+        assert(model.result.total == model.count);
+        for (unsigned index = 0; index < model.count; ++index) {
+            assert(model.result.values[index] == 1);
+        }
+    }
+}
+
 int main(void) {
     test_uniform();
     test_controls();
     test_rolls_and_history();
     test_failure_atomicity();
+    test_d200_and_all_face_boundaries();
     assert(dice_brightness(29999) == 70);
     assert(dice_brightness(30000) == 10);
     assert(dice_brightness(89999) == 10);

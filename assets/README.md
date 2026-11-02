@@ -19,7 +19,7 @@ The generated [`dice_font_16.c`](fonts/dice_font_16.c) contains a 16 px,
 4 bpp, uncompressed subset with 20 px line height, compiled by `main/CMakeLists.txt`.
 The source font is a build input only; the full OTF is not embedded in firmware.
 [`dice_font_16.json`](fonts/dice_font_16.json) records the source/output hashes,
-all 160 code points (printable ASCII plus application text), and per-glyph pixel hashes.
+all 163 code points (printable ASCII plus application text), and per-glyph pixel hashes.
 Regenerate with Python, Pillow 11.3.0 and fonttools 4.59.0:
 
 ```sh

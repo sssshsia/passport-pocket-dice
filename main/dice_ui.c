@@ -106,8 +106,9 @@ static void show_faces(uint8_t type, uint8_t count, const uint8_t *values, bool 
     static const uint8_t pip_masks[] = {0, 8, 65, 73, 99, 107, 119};
     for (unsigned index = 0; index < DICE_MAX_COUNT; ++index) {
         set_visible(s_tiles[index], index < count);
+        lv_obj_set_x(s_tiles[index], count == 1 ? 75 : 3 + (int)(index % 3) * 72);
         const unsigned value = ready && values ? values[index] : 0;
-        const bool pips = type == 2 && value > 0;
+        const bool pips = (dice_sides[type] == 4 || dice_sides[type] == 6) && value > 0;
         set_visible(s_faces[index], !pips);
         if (type == 0 && ready) {
             lv_obj_set_style_text_font(s_faces[index], &dice_font_16, 0);
@@ -142,7 +143,7 @@ void dice_ui_render(const dice_model_t *model, int battery, uint64_t now_ms, boo
     lv_obj_set_style_text_font(s_result, &lv_font_montserrat_48, 0);
     if (model->page == DICE_HOME) {
         if (model->type == 0) lv_label_set_text(s_caption, TXT_COIN);
-        else lv_label_set_text_fmt(s_caption, "%u x D%u", model->count, dice_sides[model->type]);
+        else lv_label_set_text_fmt(s_caption, TXT_DICE_FORMAT, model->count, dice_sides[model->type]);
         lv_label_set_text(s_note, model->random_error ? TXT_ERROR
                          : model->rolling ? TXT_ROLLING : model->has_result ? TXT_TOTAL : TXT_READY);
         lv_label_set_text(s_hint, TXT_HOME_HINT);
@@ -178,7 +179,7 @@ void dice_ui_render(const dice_model_t *model, int battery, uint64_t now_ms, boo
             lv_label_set_text_fmt(s_caption, TXT_HISTORY "  %u/%u",
                                   model->history_cursor + 1, model->history_count);
             if (record->type == 0) lv_label_set_text(s_note, TXT_COIN);
-            else lv_label_set_text_fmt(s_note, "%u x D%u", record->count, dice_sides[record->type]);
+            else lv_label_set_text_fmt(s_note, TXT_DICE_FORMAT, record->count, dice_sides[record->type]);
             show_result(record);
         }
     }

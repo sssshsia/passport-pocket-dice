@@ -1,6 +1,6 @@
 [简体中文](dice-app.zh_CN.md) · **English**
 
-# Pocket Dice
+# passport-pocket-dice v0.2
 
 This application replaces the hardware-test menu with a portrait, dark navy and
 amber interface. It runs offline on the existing Passport BSP. The Flipper Zero
@@ -9,10 +9,13 @@ reference; its GPL source, graphics, and UI were not incorporated.
 
 ## Features and controls
 
-- Coin, D4, D6, D8, D10, D12, D20, and D100. Dice produce inclusive values 1..N.
+- Coin, D4, D6, D8, D10, D12, D20, D100, and D200. Dice produce inclusive values 1..N.
 - One to six dice per throw, a 720 ms animation, individual values and a total.
-  D6 results use pip faces. A coin is always one coin and displays heads or tails.
-- Twelve recent throws, newest first, including each die and totals up to 600.
+  D4 and D6 results use pip faces. A coin is always one coin and displays heads or tails.
+  A single die or coin is centered horizontally on its existing animation row;
+  multiple dice keep the three-column grid.
+  Captions spell out the quantity and face count in Chinese, including history.
+- Twelve recent throws, newest first, including each die and totals up to 1200.
 - Battery percentage at the top right; unavailable readings show `--%`.
 
 | Page | UP / DOWN tap | OK tap | Hold OK | Hold DOWN |
@@ -24,7 +27,8 @@ reference; its GPL source, graphics, and UI were not incorporated.
 Holds use the BSP's 500 ms threshold. Double taps on UP/DOWN count as two
 steps; double OK starts at most one roll. Input during animation is ignored.
 Coin quantity remains one. Switching to a coin resets quantity to one.
-The footer's second line describes **hold** actions for both keys.
+The footer's second line uses the requested shorter quantity/history wording.
+History still requires holding DOWN; button behavior is unchanged.
 
 After 30 seconds idle the backlight dims, after 90 seconds it turns off,
 and after five minutes the device enters deep sleep. The first press after
@@ -92,7 +96,7 @@ photo or proof of the physical display. Windows can select Ninja and a native
 GCC compiler explicitly. The repository shell gate needs Git Bash, a `python3`
 command for the activated Python, a host C compiler and Windows actionlint.
 
-The verified `build/FoloToy-AI-Passport-full.bin` is the merged firmware for
+The verified `build/passport-pocket-dice-full.bin` is the merged firmware for
 offset **0x0**. Its matching ELF/MAP and manifest are retained under
 `build/firmware/<sha256>/`. Never flash the application-only binary at 0x0.
 A merged flash may reset stored NVS/PHY data. No full-chip erase is required.
@@ -100,9 +104,10 @@ Flashing requires explicit confirmation for this exact image.
 
 ## Device acceptance still required
 
-1. Confirm boot, all Chinese glyphs and punctuation, clipping, color and D6 pips.
-2. Exercise all eight types, quantity limits, repeated and long presses,
-   animation input suppression, history endpoints, and six D100 values.
+1. Confirm boot, all Chinese glyphs and punctuation, clipping, color, D4/D6 pips,
+   and single-die/coin centering.
+2. Exercise all nine types, quantity limits, repeated and long presses,
+   animation input suppression, history endpoints, and six D200 values.
 3. Check battery availability/failure, 30/90-second backlight behavior, and
    five-minute deep sleep; verify wake does not generate an unintended roll.
 4. Check RTC session retention across sleep and clearing on cold boot.
@@ -110,3 +115,16 @@ Flashing requires explicit confirmation for this exact image.
 
 Build, host tests and device tests must be reported separately. No flashing,
 commit, push, or publication is part of the build process.
+
+## Local versions
+
+The previous implementation is saved at the local annotated tag `v0.1`
+(commit `84b2122`). Its tested merged binary is preserved separately at
+`build/release-v0.1/Pocket-Dice-v0.1-tested-full.bin`, SHA-256
+`6bbbe0912e5a91edc450d176d35986ac98a999345b5310a6c6c5023e27b943ce`.
+That image was written and its startup observed; physical controls and display
+acceptance remain unconfirmed.
+
+Version 0.2 is developed on `feature/v0.2`, with CMake project name
+`passport-pocket-dice` and embedded version `0.2`. The checkout directory stays
+unchanged. No GitHub publication or v0.2 flashing is implied by local versioning.

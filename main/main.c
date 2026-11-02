@@ -103,7 +103,7 @@ void app_main(void) {
         key_guard_arm(&s_key_guard, esp_timer_get_time(), 10LL * 1000 * 1000);
         s_drop_until_press = true;
     }
-    ESP_LOGI(TAG, "Pocket Dice 1.0; session %s", key_wake ? "resumed" : "new");
+    ESP_LOGI(TAG, "passport-pocket-dice v0.2; session %s", key_wake ? "resumed" : "new");
     warn_step("I2C initialization", bsp_i2c_init());
     if (bsp_display_init() != ESP_OK || !bsp_lvgl_init()) {
         ESP_LOGE(TAG, "Display initialization failed");

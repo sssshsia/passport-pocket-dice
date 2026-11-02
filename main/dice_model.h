@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include <stdint.h>
 
-#define DICE_TYPE_COUNT 8
+#define DICE_TYPE_COUNT 9
 #define DICE_MAX_COUNT 6
 #define DICE_HISTORY_SIZE 12
 #define DICE_ROLL_MS 720

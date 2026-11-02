@@ -1,7 +1,7 @@
 #include "dice_model.h"
 #include <string.h>
 
-const uint8_t dice_sides[DICE_TYPE_COUNT] = {2, 4, 6, 8, 10, 12, 20, 100};
+const uint8_t dice_sides[DICE_TYPE_COUNT] = {2, 4, 6, 8, 10, 12, 20, 100, 200};
 
 void dice_model_init(dice_model_t *model) {
     memset(model, 0, sizeof(*model));

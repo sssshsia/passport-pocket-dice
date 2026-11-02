@@ -4,7 +4,7 @@
   "bpp": 4,
   "line_height": 20,
   "converter": "generate_dice_font.py / Pillow 11.3.0 / fonttools 4.59.0",
-  "font_sha256": "8cc766b9dfafe79dddf3543e2db3ede6ee09d64a87ec46d7cbc9b018cc6a61f9",
+  "font_sha256": "8c26ff891dcd2ef8e25ecf9989f2a22ce670701521bb1fd38368d3421e4ea67a",
   "glyphs": [
     {
       "point": 32,
@@ -868,260 +868,281 @@
       "pixels_sha256": "5173e8e9d50d6171bc64389d3cead9104d45121f234ebe005d5a8422998a0c4a"
     },
     {
-      "point": 25925,
+      "point": 25913,
       "start": 8369,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "ae47bcacb5da9d5138dc5f9fa9352278f5ec7fe95973f5d6cf2a9c78f934316e"
+    },
+    {
+      "point": 25925,
+      "start": 8497,
       "width": 16,
       "height": 16,
       "pixels_sha256": "ddf6f61e822a15bc5ac59af6c96b9cfb411eba05ca2993b90c46a36a644b1614"
     },
     {
       "point": 25968,
-      "start": 8497,
+      "start": 8625,
       "width": 16,
       "height": 16,
       "pixels_sha256": "1d2dd94badd03956494a8ec66541463549a960e6382323c0b16852674afd91cc"
     },
     {
       "point": 26368,
-      "start": 8625,
+      "start": 8753,
       "width": 16,
       "height": 15,
       "pixels_sha256": "f694f275c0baf402affaff68f6bd1c8a61c1e97ac0acd21d999944f4ea1c3e43"
     },
     {
       "point": 26377,
-      "start": 8745,
+      "start": 8873,
       "width": 16,
       "height": 17,
       "pixels_sha256": "f13e1e9ba3496c8cc74460c79cb05c43d3125f7182ca2d46ec38146789959efd"
     },
     {
       "point": 26412,
-      "start": 8881,
+      "start": 9009,
       "width": 16,
       "height": 16,
       "pixels_sha256": "7c854fd0996e028ce5ada330db0d1d5c1c96d5a4da519b42684665a3a113707f"
     },
     {
       "point": 26426,
-      "start": 9009,
+      "start": 9137,
       "width": 16,
       "height": 17,
       "pixels_sha256": "dedc5c4ef3bf9dc8d692b6d1f3e913621183ba95a8854d4592c86596e38112fc"
     },
     {
       "point": 26522,
-      "start": 9145,
+      "start": 9273,
       "width": 16,
       "height": 16,
       "pixels_sha256": "2423eb9faf67dbd698a7fc37475c8b53f1341d1620459da5b2440c63d2ad1050"
     },
     {
+      "point": 26597,
+      "start": 9401,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "5fa33fe98873245a442fcfe428aff08897a39abad1f1720223a129b7fb3921d8"
+    },
+    {
       "point": 27425,
-      "start": 9273,
+      "start": 9529,
       "width": 16,
       "height": 16,
       "pixels_sha256": "b9ab7774b5fbcdc75cbe429aefef34ccbffa8b3253fe65a93f3168eb24a8bfe3"
     },
     {
       "point": 27491,
-      "start": 9401,
+      "start": 9657,
       "width": 16,
       "height": 14,
       "pixels_sha256": "a8efe3c86de96a40203c358bb7778fd4d5cf29926f3032a1fb68d7ca4c84fbd1"
     },
     {
       "point": 27599,
-      "start": 9513,
+      "start": 9769,
       "width": 16,
       "height": 16,
       "pixels_sha256": "c263458dbac87adc22d7743312dc9c86875576b5dfa6c80ea7309b96b6eb323b"
     },
     {
       "point": 27809,
-      "start": 9641,
+      "start": 9897,
       "width": 16,
       "height": 16,
       "pixels_sha256": "1feda96904841991616db5196f5ec348f28d17e27245f2fab83b34172301ca3d"
     },
     {
       "point": 28378,
-      "start": 9769,
+      "start": 10025,
       "width": 16,
       "height": 16,
       "pixels_sha256": "e91a64c6560a17fc4940237e51f36ecee5d9a0fd14037ab5c8aaf1818d2f9dfc"
     },
     {
       "point": 28857,
-      "start": 9897,
+      "start": 10153,
       "width": 16,
       "height": 16,
       "pixels_sha256": "317619a56668dca577f465e7ccf50877e513e39ba7ef9f12c213bb65f237e45c"
     },
     {
       "point": 30828,
-      "start": 10025,
+      "start": 10281,
       "width": 16,
       "height": 15,
       "pixels_sha256": "21ce47e1cb71ec606eb9023597b0c4f48d6f1068cda984131ed6239e41e490e2"
     },
     {
       "point": 30830,
-      "start": 10145,
+      "start": 10401,
       "width": 16,
       "height": 17,
       "pixels_sha256": "1e11b428a9fca423635e04feb2abd73159cd4c19f225c2c5b9076475a78980a9"
     },
     {
+      "point": 31890,
+      "start": 10537,
+      "width": 16,
+      "height": 16,
+      "pixels_sha256": "eca3f3631b7b4b75e1425ab0fb829ffb4515765dc77ad4cdb7f510022bf962c8"
+    },
+    {
       "point": 32763,
-      "start": 10281,
+      "start": 10665,
       "width": 16,
       "height": 16,
       "pixels_sha256": "c092596745991bc22f76f834de3b95aaa00365dca78bfd2453fb68c08989dd0c"
     },
     {
       "point": 34955,
-      "start": 10409,
+      "start": 10793,
       "width": 16,
       "height": 16,
       "pixels_sha256": "3fbdb15a2bc33b30597521beab7742cb04fb9906f846308b6861a0de5845e10f"
     },
     {
       "point": 35760,
-      "start": 10537,
+      "start": 10921,
       "width": 16,
       "height": 16,
       "pixels_sha256": "6d282db6a02e4114936d5a4c4fbe56e921579c10ae69209506c30f22f16f047a"
     },
     {
       "point": 35797,
-      "start": 10665,
+      "start": 11049,
       "width": 16,
       "height": 16,
       "pixels_sha256": "c81dd2e10995a115cbc76c43ee1071610781b96f66f10207bed8806d0b27cc74"
     },
     {
       "point": 35831,
-      "start": 10793,
+      "start": 11177,
       "width": 16,
       "height": 17,
       "pixels_sha256": "83cdfdd764081d45eff68e038bac6dd23fdc15a1c7c51238251eb11c612b4b55"
     },
     {
       "point": 36133,
-      "start": 10929,
+      "start": 11313,
       "width": 16,
       "height": 16,
       "pixels_sha256": "89514a1617e8b67f1467dea2b9c7da24727419ecb6cf559a462b1084dbc8fb36"
     },
     {
       "point": 36215,
-      "start": 11057,
+      "start": 11441,
       "width": 16,
       "height": 16,
       "pixels_sha256": "9fafcde8427b59491fda9a6e7ca21bb54ddf992f1c41618adef182237d44ea9e"
     },
     {
       "point": 36816,
-      "start": 11185,
+      "start": 11569,
       "width": 16,
       "height": 17,
       "pixels_sha256": "623457d70efb9827e4011a5a586979aaaaea3629650788dba187e3d2042c568d"
     },
     {
       "point": 36817,
-      "start": 11321,
+      "start": 11705,
       "width": 16,
       "height": 16,
       "pixels_sha256": "292a9622d75165605fa6507212dbf40b9c583ab237a7053647540ac1b6d245fb"
     },
     {
       "point": 36820,
-      "start": 11449,
+      "start": 11833,
       "width": 16,
       "height": 16,
       "pixels_sha256": "7ca27723c168ef13023410a2365fdb4c58bdbed2e1ff747aa02005d7666e01fd"
     },
     {
       "point": 36824,
-      "start": 11577,
+      "start": 11961,
       "width": 16,
       "height": 16,
       "pixels_sha256": "9069b7838ab6e11d2f29cc1832fee86cd270c597461fb923686280628cb479d8"
     },
     {
       "point": 36873,
-      "start": 11705,
+      "start": 12089,
       "width": 16,
       "height": 17,
       "pixels_sha256": "e0e03cfbc59826c93d2f7e5c21931eb7b372b7175a7faf839a6c9c63bb93685c"
     },
     {
       "point": 37325,
-      "start": 11841,
+      "start": 12225,
       "width": 16,
       "height": 15,
       "pixels_sha256": "47eabe1f87fb13e75b3ac5fa463d734f5dd5ad6d61f86e7b4fd44769a67c6ad6"
     },
     {
       "point": 37327,
-      "start": 11961,
+      "start": 12345,
       "width": 16,
       "height": 14,
       "pixels_sha256": "e24c1393788a9622eb55d0d56a7a876aa465da12d29b66063c99376bd83053a1"
     },
     {
       "point": 38190,
-      "start": 12073,
+      "start": 12457,
       "width": 16,
       "height": 17,
       "pixels_sha256": "1866f7caeebdafe3d3d7a3faaf15a85ca412777cd3c962aeefc18e9dc7b62260"
     },
     {
       "point": 38271,
-      "start": 12209,
+      "start": 12593,
       "width": 16,
       "height": 16,
       "pixels_sha256": "5767aa452f479a65a1afa7bdec92ef879f0ca2f70eba6e5a5a5a08e05e0ac07a"
     },
     {
       "point": 38405,
-      "start": 12337,
+      "start": 12721,
       "width": 16,
       "height": 16,
       "pixels_sha256": "8428c41f0d9299a6af0dea7c17a1f7aa523f53fe45707ef76a2105b694b098a1"
     },
     {
       "point": 38543,
-      "start": 12465,
+      "start": 12849,
       "width": 16,
       "height": 16,
       "pixels_sha256": "9a5706a21f2b5c34453e2a9b6de35caf0b806bb61b0dde469d3d1fa50bc77c23"
     },
     {
       "point": 38556,
-      "start": 12593,
+      "start": 12977,
       "width": 16,
       "height": 16,
       "pixels_sha256": "30344cdcea2c4b7ec0e64101fce9c6edae602b6dcbcb48485bd377e2a051b700"
     },
     {
       "point": 38754,
-      "start": 12721,
+      "start": 13105,
       "width": 16,
       "height": 15,
       "pixels_sha256": "773019c06ca84b40e62747b7426121955dc139fb89a12e1821b3747286099325"
     },
     {
       "point": 39063,
-      "start": 12841,
+      "start": 13225,
       "width": 16,
       "height": 16,
       "pixels_sha256": "db903d0a93d321bd7659357d7a98c911c3b84ad934227dbe74fffa15febdbc33"
     },
     {
       "point": 39600,
-      "start": 12969,
+      "start": 13353,
       "width": 16,
       "height": 17,
       "pixels_sha256": "8bb6b859b05e795abdc90cde3b7774049e732b99324a5c451cb848a9cc2f8f58"

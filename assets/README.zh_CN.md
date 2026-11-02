@@ -17,7 +17,7 @@
 不压缩、20 像素行高的子集，由 `main/CMakeLists.txt` 编译。
 源 OTF 只作构建输入，不嵌入固件。
 [`dice_font_16.json`](fonts/dice_font_16.json) 记录源文件及输出哈希、
-全部 160 个字符（可打印 ASCII 和应用文字）与逐字形像素哈希。
+全部 163 个字符（可打印 ASCII 和应用文字）与逐字形像素哈希。
 使用 Python、Pillow 11.3.0 和 fonttools 4.59.0 重建：
 
 ```sh
