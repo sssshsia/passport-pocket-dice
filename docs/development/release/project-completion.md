@@ -213,7 +213,7 @@ commit, push, tag, and release.
    in [Automated Build and Release](../ci/CI-build-and-release.md). Ordinary
    feature, application, and documentation pull requests skip this step.
 2. Commit the change and push it to the fork (`origin`) — confirm separately.
-3. Create and push a tag to trigger the release workflow — confirm separately.
+3. Create and push a tag to trigger firmware building — confirm separately.
 4. Let the tagged build produce the merged firmware `.bin`.
 5. Create or update the GitHub/GitLab release with the artifact — confirm
    separately. The workflow sets the default release title to the version/tag
@@ -229,8 +229,10 @@ commit, push, tag, and release.
 - Follow the repository commit and pull-request rules
   ([commit-and-pr.md](../../contribution/commit-and-pr.md)).
 - Follow the fork workflow ([fork-guide.md](../../fork-guide.md)).
-- A tag-triggered build runs `build-firmware.yml`, which publishes the release
-  only for a tag. See [CI-build-and-release.md](../ci/CI-build-and-release.md).
+- A tag-triggered build runs `build-firmware.yml` without publishing.
+  CI publishing requires a separate manual run on a tag with `publish_release`
+  enabled. An exact tested local image can instead be uploaded separately.
+  See [CI-build-and-release.md](../ci/CI-build-and-release.md).
 - For day-to-day compilation prefer `idf.py build` (fast, incremental); use
   `./tools/validate.sh --firmware` only when the merged, byte-verified `0x0`
   full image is needed, such as before a release or delivery.

@@ -12,6 +12,24 @@
 
 ## Unreleased
 
+- No pending Pocket Dice application changes.
+
+## v0.2 - 2026-11-03
+
+- Renamed the application project to `passport-pocket-dice`, version `0.2`.
+- Replaced abbreviated dice captions with Chinese quantity/face-count descriptions.
+- Centered a single die or coin on its existing animation row; kept the multiple-dice grid.
+- Used pip faces for D4 animation and results, consistent with D6.
+- Added D200, retaining D10/D100, with totals up to 1200.
+- Updated the footer's quantity/history wording; history still requires holding DOWN.
+- Separated tag builds from publishing; CI release publication now requires
+  an explicit manual run on a tag with `publish_release` enabled.
+
+## Inherited upstream notes (unreleased)
+
+The following entries came from the upstream baseline. They have not been
+adopted as Pocket Dice v0.2 release claims and may describe earlier configurations.
+
 - Added the supplied 80-byte CW2017 profile for the specified 520 mAh cell, including content/update-flag checks, verified writes, the required restart sequence, and bounded SOC-readiness polling.
 
 - Expanded the environment bootstrap document: added Espressif's Git service mirror (`git.espressif.com.cn`) as the preferred mainland-China route for ESP-IDF v5.5.3 and its submodules, documented submodule long-wait/timeout handling, in-place repair, and the pinned-commit shallow fetch for large submodules such as `esp32-wifi-lib`, warned about stale per-repository Jihulab `insteadOf` residue, and added the official offline release archive as a last-resort fallback (learned from `esp-mosaico/esp-mosaico-vibe`).

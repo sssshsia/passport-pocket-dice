@@ -4,14 +4,15 @@
 
 # 自动构建与发布（CI / Build & Release）
 
-本仓库提供一套基于 GitHub Actions 的自动构建与发布流水线，用于在打 tag 时自动编译固件并发布 Release。
+本仓库提供基于 GitHub Actions 的固件构建与发布流水线。推送 tag 仅构建并上传
+artifact；发布需另行在 tag 上手动触发，并启用 `publish_release`，其默认值为 false。
 
 本文件与 `.github/workflows/build-firmware.yml` 一同维护，工作流行为变化时必须同步更新。
 
 ## 触发条件
 
-- **push tag**：当向仓库推送 tag（如 `v1.0.0`、`v0.1.0-feature/xxx`）时触发自动构建，并在构建成功后自动创建 Release（带固件产物）。
-- **workflow_dispatch**：可在 GitHub Actions 页面手动触发（用于调试/预发布验证）。
+- **push tag**：推送 tag 时触发自动构建和 artifact 上传，不创建 Release。
+- **workflow_dispatch**：可手动构建；仅在 tag 上明确启用 `publish_release` 才发布。
 
 > 平时 push 到分支（非 tag）**不会**触发构建；只有打 tag 才会。
 
@@ -21,7 +22,13 @@
 2. **编译与验证**（ESP-IDF 5.5.3 / esp32c3）：运行与本地相同的 `./tools/validate.sh --firmware`。脚本使用 `sdkconfig.defaults` 和 `partitions.csv` 构建固件，再执行 `idf.py merge-bin`。
 3. **验证完整固件**：脚本按 `flash_args` 生成的实际偏移逐字节确认 bootloader、partition-table 和 app，确认使用 8 MB Flash，并检查当前配置的分区布局，最后输出 `build/passport-pocket-dice-full.bin`。仓库默认偏移为 `0x0`、`0x8000` 和 `0x10000`；用户自定义分区表时可以改变 app 偏移。
 4. **上传 artifact**：每次成功构建都上传 `passport-pocket-dice-full.bin`。普通分支只有从该分支手动运行 `workflow_dispatch` 才会构建；普通 push 不触发。
-5. **发布 tag**：tag 构建完成后，独立 release job 下载上述 artifact，并创建 GitHub Release。
+5. **单独发布**：仅在 tag 上手动运行并启用 `publish_release` 时，独立 release job
+   下载上述 artifact 并创建 GitHub Release。
+
+手动发布运行会重新构建固件，不会上传此前实测的本地镜像。
+如需发布确切的本地实测固件，应另行授权上传 GitHub Release，
+并附校验和、清单及许可附件，不要为同一 Release 启用 CI 发布选项。
+沿用设备测试结论前需比较哈希。
 
 构建 job 只有 `contents: read` 权限；仅 release job 在 tag 发布时获得 `contents: write`。所有 Action 均固定到完整 commit SHA，行尾注释保留对应发布版本，升级时需同时核对 SHA 与版本。
 

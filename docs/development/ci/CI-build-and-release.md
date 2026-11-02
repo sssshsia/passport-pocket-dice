@@ -4,9 +4,19 @@
 
 # Automated Build and Release
 
-`.github/workflows/build-firmware.yml` builds and publishes firmware for tags and supports manual dispatch. Ordinary branch pushes do not trigger it. Keep this page synchronized with the workflow.
+`.github/workflows/build-firmware.yml` builds firmware for tags and supports
+manual dispatch. Tag pushes only build and upload an artifact. Publishing
+requires a separate manual dispatch on a tag with `publish_release` enabled;
+its default is false. Ordinary branch pushes do not trigger this workflow.
+Keep this page synchronized with the workflow.
 
-The build job restores ccache, runs `./tools/validate.sh --firmware` with ESP-IDF 5.5.3 for ESP32-C3, verifies the bootloader, partition table, and application at the offsets generated in `flash_args`, checks the 8 MB Flash arguments and configured partition layout, then uploads `passport-pocket-dice-full.bin`. The repository default places these images at `0x0`, `0x8000`, and `0x10000`; user-defined partition tables may change the application offset. A separate least-privilege release job publishes that artifact only for a tag.
+The build job restores ccache, runs `./tools/validate.sh --firmware` with ESP-IDF 5.5.3 for ESP32-C3, verifies the bootloader, partition table, and application at the offsets generated in `flash_args`, checks the 8 MB Flash arguments and configured partition layout, then uploads `passport-pocket-dice-full.bin`. The repository default places these images at `0x0`, `0x8000`, and `0x10000`; user-defined partition tables may change the application offset. A separate least-privilege release job publishes that artifact only for an explicitly requested manual run on a tag.
+
+That manual run builds a fresh image; it does not upload a previously tested
+local image. To publish an exact tested local image, use a separately authorized
+GitHub release upload with its checksum, manifest and license attachment instead.
+Do not enable the CI publishing option for that release. Compare hashes before
+reusing any hardware test claim.
 
 All Actions are pinned to full commit SHAs. The build job has `contents: read`; only the tag release job receives `contents: write`.
 

@@ -5,6 +5,8 @@
 本应用以深蓝与琥珀色竖屏界面替代硬件测试菜单，离线运行并复用 Passport BSP。
 Flipper Zero 的 [DnD Dice](https://github.com/Ka3u6y6a/flipper-zero-dice)
 仅作为功能参考，没有引入其 GPL 源码、图像或界面。
+致谢及依赖许可见[第三方声明](third-party-notices.zh_CN.md)，
+已实测镜像说明见 [v0.2 发布说明](releases/v0.2.zh_CN.md)。
 
 ## 功能与操作
 

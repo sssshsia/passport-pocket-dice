@@ -6,6 +6,8 @@ This application replaces the hardware-test menu with a portrait, dark navy and
 amber interface. It runs offline on the existing Passport BSP. The Flipper Zero
 [DnD Dice](https://github.com/Ka3u6y6a/flipper-zero-dice) project is a behavioral
 reference; its GPL source, graphics, and UI were not incorporated.
+See [third-party notices](third-party-notices.md) for credits and dependency
+licenses, and the [v0.2 release notes](releases/v0.2.md) for the tested image.
 
 ## Features and controls
 

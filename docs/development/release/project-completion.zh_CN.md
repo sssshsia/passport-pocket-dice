@@ -156,7 +156,7 @@ flowchart TD
 
 1. 准备仓库发布时，检查自上一版本以来已合并的用户可见变化，并按[自动构建与发布](../ci/CI-build-and-release.zh_CN.md)同时更新中英文变更日志。普通功能、应用和文档 PR 跳过此步骤。
 2. 提交变更并推送到 fork（`origin`）——分开确认。
-3. 创建并推送 tag 以触发 release 工作流——分开确认。
+3. 创建并推送 tag 以触发固件构建——分开确认。
 4. 让 tagged 构建产生合并固件 `.bin`。
 5. 用产物创建或更新 GitHub/GitLab release——分开确认。工作流把 release 标题默认设为版本/tag 名；release 发布后，把它改成项目特性名加版本号。
 6. 用英文写 release notes（项目双语时另附简体中文版），覆盖新增内容、如何构建、如何使用。
@@ -166,7 +166,10 @@ flowchart TD
 
 - 遵守仓库提交与 PR 规则（[commit-and-pr.zh_CN.md](../../contribution/commit-and-pr.zh_CN.md)）。
 - 遵守 fork 工作流（[fork-guide.zh_CN.md](../../fork-guide.zh_CN.md)）。
-- tag 触发的构建运行 `build-firmware.yml`，它只为 tag 发布 release。见 [CI-build-and-release.zh_CN.md](../ci/CI-build-and-release.zh_CN.md)。
+- tag 触发的构建运行 `build-firmware.yml`，但不发布。
+  CI 发布需在 tag 上单独手动运行并启用 `publish_release`；
+  如需发布确切的本地实测镜像，也可另行上传。
+  见 [CI-build-and-release.zh_CN.md](../ci/CI-build-and-release.zh_CN.md)。
 - 日常编译优先用 `idf.py build`（快、增量）；仅当需要合并、字节校验的 `0x0` 完整镜像时才用 `./tools/validate.sh --firmware`，例如发布或交付前。
 - 工作流用默认标题（版本/tag 名）创建 release（来自 `softprops/action-gh-release` 与 `github.ref_name`）。release 发布后，把标题改成项目特性名加版本号——例如 `Voice Keychain v1.2.0`。版本是 tag，特性名是应用的 发布名，来自共享 [发布属性](#published-profile)。
 - release notes 必须向没读过仓库的用户解释构建：新增内容、如何构建、如何使用。
